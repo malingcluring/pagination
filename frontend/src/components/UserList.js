@@ -89,7 +89,7 @@ const UserList = () => {
                     <p>
                         Total Rows: {rows} Page: {rows ? page + 1 : 0} of {pages}
                     </p>
-                    <p className="has-text-centered has-text-danger">{msg}</p>
+                    <p className="has-text-centered has-text-danger mb-5">{msg}</p>
                     <nav
                         className="pagination is-centered"
                         key={rows}
